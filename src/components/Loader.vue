@@ -9,7 +9,8 @@
       absolute, 
       fixed
     }"
-    class="spinner-border text-primary"></div>
+    class="spinner-border">
+  </div>
 </template>
 
 <script>
@@ -36,12 +37,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .spinner-border {
   margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  color: $primary;
   &.absolute {
     position: absolute;
   }
